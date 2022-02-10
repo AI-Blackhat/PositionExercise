@@ -75,7 +75,11 @@ body {
   
   /* START BELOW THIS LINE */
 
-  /* 1) The default position value that all html elements start off with is "static". */
+   /* 1) The default position value that all html elements start off with is:  
+      position: static */
+   
+   
+
 
   /* 2)  */
   #power {
@@ -151,3 +155,8 @@ body {
   }
 
   /* Bonus 3 */
+
+h2 {
+  position: sticky;
+  top: 65px;
+}
